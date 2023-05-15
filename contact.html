@@ -107,12 +107,25 @@
     </div>
     
     <div class="footer__content">
-        <h3 class="text--dark">Creative Portfolio Design</h3>
+      <h3 class="text--dark"> © Creative Portfolio Design</h3>
     </div>
 
   </div>
 </div>
 </footer>
+
+   <!------Script for toggle menu-->
+   <script>
+
+    const nav = document.querySelector('.nav');
+    const toggle__menu = document.querySelector('.toggle__menu');
+
+    toggle__menu.addEventListener("click",()=>{
+     toggle__menu.classList.toggle('open'); 
+     nav.classList.toggle('open');
+    })
+
+  </script>
 
   </body>
 </html>

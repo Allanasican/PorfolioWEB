@@ -96,8 +96,9 @@ h1{
 /*----Skills-------*/
 .skills{
   &__wrapper{
+    gap: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     @include mediaQuery($break-md){
       gap: 1rem;
       grid-template-columns: 1fr 1fr;
@@ -415,9 +416,9 @@ textarea{
   transform: translateY(-50%);
 }
 .img {
-  padding: 3rem;
+  padding: 2rem;
   --s: auto;   /* the size of the image */
-  --b: 4px;     /* the border thickness*/
+  --b: 0px;     /* the border thickness*/
   --g: 0px;    /* the gap */
   --c: #0793E1; /* the color */
   
@@ -462,9 +463,10 @@ textarea{
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
   z-index: -1;
   background: linear-gradient(45deg, white, transparent);
-  opacity: 0.5;
+  opacity: 1;
   transition: all 0.5s ease;
 }
 
