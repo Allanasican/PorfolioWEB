@@ -127,7 +127,6 @@ h1{
   width: 480px;
   border-radius: 15px;
   height: 500px;
-  object-fit: cover;
   transition: 1s ease;
  }  
   &__banner img:hover {
@@ -135,6 +134,7 @@ h1{
   transition: 1s ease;
   }
  &__content h1{
+  align-items: center;
    font-size: 70px;
    line-height: 5rem;
   }

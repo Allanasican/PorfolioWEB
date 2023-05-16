@@ -282,8 +282,6 @@ h1 {
   width: 480px;
   border-radius: 15px;
   height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
   transition: 1s ease;
 }
 .together__banner img:hover {
@@ -291,6 +289,7 @@ h1 {
   transition: 1s ease;
 }
 .together__content h1 {
+  align-items: center;
   font-size: 70px;
   line-height: 5rem;
 }
